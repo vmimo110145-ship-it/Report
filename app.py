@@ -540,5 +540,7 @@ elif menu == "👋 Meus Chamados":
                     st.image(base64.b64decode(reg["foto_base64"]))
                 if reg["data_conclusao"]:
                     st.write("**Resolvido em:**", calcular_tempo_finalizacao(reg["data_envio"], reg["data_conclusao"]))
+[ui]
+hideToolbar = true
 
 st.sidebar.caption("Condomínio Pro • 2025")
